@@ -5,9 +5,9 @@ public class exercicio4 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
-		int x;
+		double x;
 		
-		x = sc.nextInt();
+		x = sc.nextDouble();
 		
 		
 		System.out.println("Voce digitou: " + x);
