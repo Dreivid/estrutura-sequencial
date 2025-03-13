@@ -5,14 +5,16 @@ public class exercicio1_sozinho {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
-		int a, b, soma;
+		int a, b, c, d, result;
 		
 		a = sc.nextInt();
 		b = sc.nextInt();
+		c = sc.nextInt();
+		d = sc.nextInt();
 		
-		soma = a + b;
+		result = a * b - c * d;
 		
-		System.out.println("SOMA = " + soma);
+		System.out.println("DIFERENÇA = " + result);
 		
 		sc.close();
 	}
