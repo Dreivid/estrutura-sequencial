@@ -1,20 +1,24 @@
+import java.util.Locale;
 import java.util.Scanner;
 
 public class exercicio1_sozinho {
 
 	public static void main(String[] args) {
+		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		
-		int a, b, c, d, result;
+		int numero, horas;
+		double valorHoras, salário;
 		
-		a = sc.nextInt();
-		b = sc.nextInt();
-		c = sc.nextInt();
-		d = sc.nextInt();
+		numero = sc.nextInt();
+		horas = sc.nextInt();
+		valorHoras = sc.nextDouble();
 		
-		result = a * b - c * d;
 		
-		System.out.println("DIFERENÇA = " + result);
+		salário = horas * valorHoras;
+		
+		System.out.println("NUMBER = " + numero);
+		System.out.printf("SALARY = U$ %.2f%n", salário);
 		
 		sc.close();
 	}
