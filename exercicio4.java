@@ -7,12 +7,18 @@ public class exercicio4 {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		
-		char x;
+		String x;
+		int y;
+		double z;
 		
-		x = sc.next().charAt(0);
+		x = sc.next();
+		y = sc.nextInt();
+		z = sc.nextDouble();
 		
-		
-		System.out.println("Voce digitou: " + x);
+		System.out.println("Dados digitados: ");
+		System.out.println(x);
+		System.out.println(y);
+		System.out.println(z);
 		
 		
 		
