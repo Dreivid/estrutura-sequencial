@@ -3,15 +3,16 @@ public class exercicio3 {
 
 	public static void main(String[] args) {
 		
-		float b, B, h, area;
+		int a, b;
+		double resultado;
 		
-		b = 6f;
-		B = 8f;
-		h = 5f;
+		a = 5;
+		b = 2;
+	
 		
-		area = (float) ((b + B) / 2.0 * h);
+		resultado = (double) a / b;
 		
-		System.out.println(area);
+		System.out.println(resultado);
 
 	}
 
